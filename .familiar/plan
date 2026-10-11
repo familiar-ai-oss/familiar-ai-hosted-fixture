@@ -22,3 +22,4 @@
 {"kind":"test_written","criterion_id":"c2","file_path":"tests/test_c2.sh","test_name":""}
 {"kind":"fingerprint_stamped","criterion_id":"c2","commit":"8a1c6ff17c578f7d11853d5fa1e24cb1c02d08c0","proof_not_tampered":"80ab5a4c41a123b5b595b84e14fea4741a603484b7ef0ff107468f7becb99b91","ran_in":"laptop"}
 {"kind":"fingerprint_stamped","criterion_id":"c1","commit":"8a1c6ff17c578f7d11853d5fa1e24cb1c02d08c0","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"0478af290b8076cd2176fff697e78a3540de2454","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
