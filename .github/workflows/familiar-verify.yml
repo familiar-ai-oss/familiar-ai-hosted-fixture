@@ -1,0 +1,19 @@
+name: familiar
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  familiar-verify:
+    name: familiar-verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: familiar-ai-oss/familiar-ai/action@v0.1.0-dev
+        with:
+          version: 0.1.0-dev
