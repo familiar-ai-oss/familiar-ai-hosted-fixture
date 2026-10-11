@@ -1,0 +1,25 @@
+{"kind":"intent_submitted","text":"make greet say hello and make farewell say goodbye","sha":"8a8cd71cea90e1ee754c88d3b3435cbedd8c3eaf"}
+{"kind":"criterion","criterion_id":"c1","text":"greet says hello","path":"light"}
+{"kind":"criterion","criterion_id":"c2","text":"farewell says goodbye","path":"light"}
+{"kind":"place_chosen","criterion_id":"c1","places":[{"file_path":"src/app.sh","symbol":"greet","line_start":2,"line_end":2}]}
+{"kind":"anchor_sha_matched","criterion_id":"c1","file_path":"src/app.sh","symbol":"greet","line_start":2,"line_end":2,"sha":"8a8cd71cea90e1ee754c88d3b3435cbedd8c3eaf","lines_hash":"9ecf81eec713b9be25b65e3aafc73cb150b46aaf17484920571faad0179ef42a","matched":true,"checked_at":"planning"}
+{"kind":"place_chosen","criterion_id":"c2","places":[{"file_path":"src/app.sh","symbol":"farewell","line_start":3,"line_end":3}]}
+{"kind":"anchor_sha_matched","criterion_id":"c2","file_path":"src/app.sh","symbol":"farewell","line_start":3,"line_end":3,"sha":"8a8cd71cea90e1ee754c88d3b3435cbedd8c3eaf","lines_hash":"94df03493a83262492eaa4907fac7b4e68d26b42a9bf08dc704a7f0314026782","matched":true,"checked_at":"planning"}
+{"kind":"test_planned","criterion_id":"c1","file_path":"tests/test_c1.sh","will":"create"}
+{"kind":"test_planned","criterion_id":"c2","file_path":"tests/test_c2.sh","will":"create"}
+{"kind":"test_stack_detected","codebase_id":"familiar-ai-hosted-fixture","project_root":"","test_stack":"sh","test_command":"for t in tests/test_*.sh; do [ -e \"$t\" ] || continue; sh \"$t\" || exit 1; done"}
+{"kind":"criterion_head","criterion_id":"c1"}
+{"kind":"criterion_strung_on_head","criterion_id":"c2","head":"c1"}
+{"kind":"criterion_assigned","criterion_id":"c1","agent_conversation_id":"591178a4-570f-4e7e-a5a0-2e02c0ef00e8"}
+{"kind":"criterion_assigned","criterion_id":"c2","agent_conversation_id":"591178a4-570f-4e7e-a5a0-2e02c0ef00e8"}
+{"kind":"fix_location_category","criterion_id":"c1","category":"this_repository","where":""}
+{"kind":"fix_location_category","criterion_id":"c2","category":"this_repository","where":""}
+{"kind":"anchor_sha_matched","criterion_id":"c1","file_path":"src/app.sh","symbol":"greet","line_start":2,"line_end":2,"sha":"8a8cd71cea90e1ee754c88d3b3435cbedd8c3eaf","lines_hash":"9ecf81eec713b9be25b65e3aafc73cb150b46aaf17484920571faad0179ef42a","matched":true,"checked_at":"start"}
+{"kind":"test_written","criterion_id":"c1","file_path":"tests/test_c1.sh","test_name":""}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"db42ee23b305ed0da1072e23476995047c25adb5","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"3fb3801a9a42d6229cb84b4b7e69ebcc7bcdbe99","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
+{"kind":"anchor_sha_matched","criterion_id":"c2","file_path":"src/app.sh","symbol":"farewell","line_start":3,"line_end":3,"sha":"3fb3801a9a42d6229cb84b4b7e69ebcc7bcdbe99","lines_hash":"94df03493a83262492eaa4907fac7b4e68d26b42a9bf08dc704a7f0314026782","matched":true,"checked_at":"start"}
+{"kind":"test_written","criterion_id":"c2","file_path":"tests/test_c2.sh","test_name":""}
+{"kind":"fingerprint_stamped","criterion_id":"c2","commit":"8a1c6ff17c578f7d11853d5fa1e24cb1c02d08c0","proof_not_tampered":"80ab5a4c41a123b5b595b84e14fea4741a603484b7ef0ff107468f7becb99b91","ran_in":"laptop"}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"8a1c6ff17c578f7d11853d5fa1e24cb1c02d08c0","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"0478af290b8076cd2176fff697e78a3540de2454","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}

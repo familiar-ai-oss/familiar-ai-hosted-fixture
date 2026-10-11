@@ -1,5 +1,5 @@
 #!/bin/sh
-greet() { echo hi; }
-farewell() { echo bye; }
+greet() { echo hello; }
+farewell() { echo goodbye; }
 greet
 farewell
