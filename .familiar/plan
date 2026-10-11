@@ -15,3 +15,5 @@
 {"kind":"fix_location_category","criterion_id":"c1","category":"this_repository","where":""}
 {"kind":"fix_location_category","criterion_id":"c2","category":"this_repository","where":""}
 {"kind":"anchor_sha_matched","criterion_id":"c1","file_path":"src/app.sh","symbol":"greet","line_start":2,"line_end":2,"sha":"8a8cd71cea90e1ee754c88d3b3435cbedd8c3eaf","lines_hash":"9ecf81eec713b9be25b65e3aafc73cb150b46aaf17484920571faad0179ef42a","matched":true,"checked_at":"start"}
+{"kind":"test_written","criterion_id":"c1","file_path":"tests/test_c1.sh","test_name":""}
+{"kind":"fingerprint_stamped","criterion_id":"c1","commit":"db42ee23b305ed0da1072e23476995047c25adb5","proof_not_tampered":"da4c4c2f3cbed53e9958f3ed82a45584da4b8c2962a48ce4400235926120a20e","ran_in":"laptop"}
